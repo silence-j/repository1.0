@@ -1,0 +1,172 @@
+.bg{
+    width: 100%;
+    height: 480px;
+    position: relative;
+}
+.bg img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.bg p {
+    position: absolute;
+    font-family: SourceHanSerifCN-Heavy;
+    font-size: 48px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    top: 170px;
+    left: 18.6%;
+}
+.bg span {
+    font-family: PingFangSC-Light;
+    font-size: 18px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    position: absolute;
+    top: 252px;
+    left: 30.5%;
+}
+.line-80 {
+    width: 100%;
+    height: 80px;
+    background-color: #F5F9FC;
+}
+/*客户服务*/
+.customer-server{
+    width: 100%;
+    min-height: 525px;
+    text-align: center;
+    background-color: #F5F9FC;
+    overflow: hidden;
+}
+.customer-server h2{
+    font-size: 36px;
+    line-height: 44px;
+    color: #333333;
+    margin-bottom: 60px;
+}
+
+.customer-server ul {
+    width:100%;
+    margin:0 auto;
+    overflow: hidden;
+    background-color: #F5F9FC;
+    margin-left: 12.5%;
+}
+.customer-server ul li {
+    float: left;
+    width: 23.9%;
+    height: 355px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+ .customer-server ul li:nth-of-type(2) {
+    margin : 0 1.6%;
+} 
+.customer-server ul li:hover{
+    box-shadow: 0px 0px 15px #cccccc;
+}
+.customer-server li a{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    margin-top: 85px;
+}
+.customer-server li h4 {
+    margin-top: 30px;
+    font-size: 16px;
+}
+.customer-server li p {
+    max-width: 205px;
+    display: inline-block;
+    text-align: center;
+    font-size: 13px;
+    color: #666666;
+    margin-top: 20px;
+}
+@media (min-width: 1024px){.customer-server  ul li:nth-child(3n) {margin-right: 0}}
+@media (max-width: 1024px){.customer-server  ul {width:100%;margin-left: 0}}
+@media (max-width: 1024px){.customer-server  ul li{width:49%;margin-bottom: 15px}}
+@media (max-width: 1024px){.customer-server  ul li:nth-child(2n) {margin-right: 0;margin-bottom: 15px;}}
+@media (max-width: 1024px){.customer-server  ul li:last-child(1) {margin-bottom: 0}}
+/* 市场合作 */
+.market-cooperation {
+    background-color: #ffffff;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+.market-cooperation .tit {
+    text-align: center;
+}
+.market-cooperation .tit h2 {
+    font-size: 36px;
+    line-height: 44px;
+    margin-bottom: 20px;
+}
+.market-cooperation .tit p {
+    line-height: 25px;
+}
+.address {
+    width: 100%;
+
+}
+.address ul {
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 0 12.5%;
+    margin-top: 60px;
+    margin-bottom: 80px;
+} 
+.address ul li {
+    box-sizing: border-box;
+    width: 31.4%;
+    height: 150px;
+    border: 1px solid #D7D7D7;
+    border-radius: 4px;
+    padding: 24px 0 0 24px;
+    float: left;
+    /* margin-right: 2.8%; */
+    margin-bottom: 40px;
+}
+ /*.address ul li:nth-of-type(3n+2) {*/
+    /*margin:0 2.8%;*/
+/*} */
+.address li h4 {
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #2C2B3F;
+    letter-spacing: 0;
+    margin-bottom: 13px;
+}
+.address li p {
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #70707A;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+.investment {
+    width: 100%;
+    text-align: center;
+}
+.investment h2 {
+    font-family: HelveticaNeue-Bold;
+    font-size: 36px;
+    color: #333333;
+    letter-spacing: 0;
+    margin-bottom: 20px;
+}
+.investment p {
+    font-family: HelveticaNeue;
+    font-size: 16px;
+    color: #333333;
+    letter-spacing: 0;
+    line-height: 26px;
+}
+@media (min-width: 1024px){.address  ul li:nth-child(3n+2) {margin: 0 2.8%}}
+
+@media (max-width: 1024px){.address  ul {width:100%;padding: 0}}
+@media (max-width: 1024px){.address  ul li{width:49%;margin-bottom: 15px;}}
+@media (max-width: 1024px){.address  ul li:nth-child(2n) {margin-left: 2%;margin-bottom: 15px;}}
+@media (max-width: 1024px){.investment  {margin-top: 40px;margin-bottom: 15px;}}
